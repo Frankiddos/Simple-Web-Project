@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right,rgb(51, 18, 82), pink);
+    font-size: x-large;
+    color: azure;
+}
+a:link{
+    text-decoration: none;
+    border-style:solid;
+    border-color:aquamarine;
+    color: beige;
+    padding: 5px;
+    background-color: rgb(138, 59, 114);
+    border-color: rgb(221, 126, 17);
+}
+button{
+    color: rgb(35, 42, 49);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border-width: none;
+    background: linear-gradient(to right, gold, orange, pink);
+}
+button:hover{
+    background: linear-gradient(to right,rgb(51, 18, 82), pink);
+}
+#psw{
+    border-style: none;
+    background: none;
+    font-size: large;
+}

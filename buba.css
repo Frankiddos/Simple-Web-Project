@@ -1,0 +1,120 @@
+body{
+    
+    color: beige;
+    background: linear-gradient(to right,rgb(51, 18, 82), pink);
+}
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+button{
+    color:whitesmoke;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+    border-style: solid;
+    border-color: rgb(73, 84, 243);
+    background-color: rgb(51, 18, 82)
+}
+button:hover{
+    background-color: rgb(18, 62, 204);
+}
+nav, ul, li, a{
+    display: inline;
+    color: beige;
+    text-decoration: none;
+    word-spacing: 30px;
+    margin-left: auto;
+}
+
+.all{
+    display: flex;
+    font-size:x-large;
+    margin: 50px;
+}
+.mmh img{
+    margin-left: 100%;
+    border-radius: 10px;
+}
+.jup img{
+    float:left;
+}
+.mode{
+    display: flex;
+}
+.three{
+    margin-left: 60px;
+    font-size: x-large;
+}
+.cartoon img{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.two button:hover{
+    background: linear-gradient(to left, gold, rgb(76, 180, 6));
+}
+.two button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border-width: none;
+}
+
+footer{
+    background: linear-gradient(to bottom, rgb(194, 71, 194), black);
+}
+.allfoot{
+    display: flex;
+    
+}
+.fot1 li a{
+    text-decoration: none;
+    word-spacing: 1px;
+    display: block;
+    
+}
+.fot2 li a{
+    text-decoration: none;
+    word-spacing: 1px;
+    display: block;
+}
+.fot3 li a{
+    text-decoration: none;
+    word-spacing: 1px;
+    display: block;
+}
+.fot3{
+    margin-left: auto;
+    line-height: 1.8rem;
+}
+.fot2{
+    margin-left: 23rem;
+    line-height: 1.8rem;
+}
+.fot1{
+    line-height: 1.8rem;
+}
+
+/* Animations zone */
+@keyframes animate{
+    0%{background-color: aqua;}
+    25%{background: radial-gradient(gold, green);
+    top: 20px;
+    bottom: 0px;
+    }
+    50%{background-color: burlywood;
+    bottom: 20px; 
+    top: 0px;
+    }
+    100%{background: linear-gradient(to top, black, purple);}
+}
+
+.two button{
+    animation-name: animate;
+    animation-delay: -2s;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
